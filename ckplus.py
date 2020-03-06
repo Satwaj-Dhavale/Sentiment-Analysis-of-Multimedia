@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import models
 
 base_dir = 'datasets/ck_data'
-train_dir = os.path.join(base_dir, 'train_4')
-validation_dir = os.path.join(base_dir, 'validation_4')
+train_dir = os.path.join(base_dir, 'train')
+validation_dir = os.path.join(base_dir, 'validation')
 
 
 model = models.model_h9()
